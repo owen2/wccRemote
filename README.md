@@ -1,8 +1,10 @@
-# `cortex-m-quickstart`
+# wccRemote
+Remote Control for the Warren Cultural Center Auditorium
 
-> A template for building applications for ARM Cortex-M microcontrollers
-
-This project is developed and maintained by the [Cortex-M team][team].
+## On Chip debuggler
+```
+openocd -f interface/stlink-v2.cfg -f target/stm32f1x.cfg
+```
 
 ## Dependencies
 
